@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/put.js"
+    "start": "ts-node src/put.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "samp-query": "^0.1.5"
+    "samp-query": "^0.1.5",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
